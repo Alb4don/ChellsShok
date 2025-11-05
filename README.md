@@ -29,9 +29,9 @@
 
   ![front_02](https://github.com/user-attachments/assets/02c0bad4-ca55-49b7-ae3a-0440e06f01af)
 
-# Limitations
+# Limitations And possible future improvements
 
-- CGI Dependency,Only vulnerable if target uses Bash-based CGI scripts.
-- False Negatives,Some servers strip or sanitize inputs before Bash.
-- No Exploit Execution,"Detects vulnerability — does not run id, cat, etc."
-- No Authentication Handling,Does not support login sessions or CSRF tokens.
+- [ ] CGI Dependency,Only vulnerable if target uses Bash-based CGI scripts.
+- [ ] False Negatives,Some servers strip or sanitize inputs before Bash.
+- [ ] No Exploit Execution, Detects vulnerability does not run id, cat, etc.
+- [ ] No Authentication Handling,Does not support login sessions or CSRF tokens.
