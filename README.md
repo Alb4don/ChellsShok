@@ -31,7 +31,6 @@
 
 # Limitations And possible future improvements
 
-- [ ] CGI Dependency,Only vulnerable if target uses Bash-based CGI scripts.
-- [ ] False Negatives,Some servers strip or sanitize inputs before Bash.
-- [ ] No Exploit Execution, Detects vulnerability does not run id, cat, etc.
-- [ ] No Authentication Handling,Does not support login sessions or CSRF tokens.
+- [X] False Negatives,Some servers strip or sanitize inputs before Bash.
+- [X] No Exploit Execution, Detects vulnerability does not run id, cat, etc.
+- [X] No Authentication Handling,Does not support login sessions or CSRF tokens.
